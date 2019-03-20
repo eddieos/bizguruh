@@ -1,0 +1,19 @@
+#navbar-main input
+{
+    width: 200px;
+
+    transition: all .3s;
+}
+
+#navbar-main input:focus
+{
+    width: 400px;
+}
+
+@media (max-width: 576px)
+{
+    #navbar-main input
+    {
+        width: 100%;
+    }
+}
